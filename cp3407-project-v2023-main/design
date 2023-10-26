@@ -1,0 +1,31 @@
+Car Rental Website Design Documentation
+Welcome to the design documentation our Yber Rent. This page provides an overview of the architectural, database, and user interface designs for our website.
+Yber Rent strives to serve our users with flexibility and high availability. 
+  
+The architectural design can be broken down into the following key components:
+Frontend: A user-friendly web interface built using WordPress' tags, search and filtering to allow customers to search for and rent cars.
+WordPress: We utilize WordPress as our content management system (CMS) for managing the content on our website.
+Backend WordPress services: These services manage user accounts, car listings accepting, reservations, and payments. Each service is responsible for specific functionalities.
+AWS Infrastructure: We host our platform on Amazon Web Services (AWS) for its robust cloud infrastructure.
+
+Justification
+Our architectural choices focus on ensuring a highly available, reliable, and secure platform. By employing an AWS and WordPress architecture, we can develop, deploy and manage with confidence.
+
+Database Design
+Our database design is structured to accommodate the various data needs of the platform. We use the built-in database in WordPress that takes care of our user data and their listings.
+
+User Interface Design
+Overview
+Our user interface design prioritizes an intuitive and user-friendly experience. 
+
+Key elements include:
+Responsive Design: The interface is responsive, providing an optimal viewing experience.
+Simple Navigation: An easy-to-navigate menu structure and clear calls to action guide users through the website.
+Search and Filter: An efficient search and filter feature enables users to find the right car quickly.
+Booking Process: A streamlined booking process minimizes user effort, making reservations straightforward.
+
+Justification
+The user interface design aims to provide an exceptional user experience, enhancing usability, and ensuring users can efficiently find and book cars of their choosing.
+
+Conclusion
+Yber Rent's exemplary architectural, database, and user interface designs are the backbone of a reliable and user-friendly platform. The design choices we have taken are considered to ensure a secure, scalable, and enjoyable experience for both customers and administrators.
